@@ -19,7 +19,6 @@
 	</div>
 	{/if}
 
-	<!-- <p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p> -->
 
 </main>
 
@@ -29,7 +28,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	// height: 100vh;
 }
 
 .location-info{
