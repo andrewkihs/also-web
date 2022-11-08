@@ -28,6 +28,7 @@ import tsconfig from "./tsconfig.json";
 
 const production = process.env.NODE_ENV === "production";
 const config = <UserConfig>defineConfig({
+  base: "/also-web",
   plugins: [
     svelte({
       emitCss: production,
